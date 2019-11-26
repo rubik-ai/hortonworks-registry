@@ -15,7 +15,9 @@ To install the chart with the release name my-release, run:
 
 ```
 helm repo add rubik https://rubik-ai.github.io/hortonworks-registry/package
+helm repo update
 helm install my-release --namespace=hw-registry rubik/hw-registry
+helm search repo rubik
 ```
 
 The chart can be customized using the following configurable parameters:
