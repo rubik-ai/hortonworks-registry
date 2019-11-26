@@ -14,7 +14,7 @@ kubectl create namespace hw-registry
 To install the chart with the release name my-release, run:
 
 ```
-helm repo add rebik http://storage.googleapis.com/kubernetes-charts-incubator
+helm repo add rubik https://rubik-ai.github.io/hortonworks-registry/package
 helm install my-release --namespace=hw-registry rubik/hw-registry
 ```
 
