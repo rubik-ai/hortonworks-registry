@@ -2,8 +2,6 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-namespace: ""
-
 replicaCount: 1
 
 revisionHistoryLimit: 3
@@ -13,8 +11,8 @@ terminationGracePeriodSeconds: 30
 
 environment:
   sql_db: hortonworks
-  sql_host: mysql-quickstart.demo
-  sql_password: _lwtyVIo1UaLE0ht
+  sql_host: db
+  sql_password: hortonworks
   sql_port: "3306"
   sql_user: root
 
